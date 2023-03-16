@@ -1,0 +1,36 @@
+{
+  "extends": "airbnb-base",
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true,
+    "es2022": true,
+    "node": true
+  },
+  "globals": {
+    "describe": true,
+    "it": true,
+    "true": true
+  },
+  "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+  },
+  "rules": {
+    "no-underscore-dangle": 0,
+    "comma-dangle": ["error", "never"],
+    "max-lines-per-function": ["warn", {
+      "max": 15
+    }],
+    "quotes": ["error", "single"]
+  },
+  "overrides": [
+    {
+        "files": [
+          "**/*.test.js"
+        ],
+        "rules": {
+          "max-lines-per-function": "off"
+        }
+    }
+  ]
+}
