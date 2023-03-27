@@ -36,3 +36,9 @@ Icon*
 
 # Husky
 .husky
+
+# bin
+bin/
+
+# Environment Variables
+.env

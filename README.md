@@ -1,4 +1,4 @@
-# node-tdd-template
+# express-jwt-authentication
 
 ## Getting Started
 
