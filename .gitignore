@@ -42,3 +42,4 @@ bin/
 
 # Environment Variables
 .env
+.vercel
